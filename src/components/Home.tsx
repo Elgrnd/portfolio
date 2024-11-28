@@ -1,5 +1,3 @@
-import React from 'react';
-
 const Home = () => {
   return (
     <div className="min-h-screen pt-16">
@@ -9,7 +7,7 @@ const Home = () => {
           <div className="flex flex-col md:flex-row items-center">
             <div className="md:w-1/2 mb-8 md:mb-0">
               <h1 className="text-4xl md:text-5xl font-bold mb-4">
-                Bonjour, je suis [Votre Nom]
+                Bonjour, je suis Galdric DESERT-CAPARROS
               </h1>
               <p className="text-xl text-gray-300 mb-6">
                 Étudiant en BUT Informatique passionné par le développement web
