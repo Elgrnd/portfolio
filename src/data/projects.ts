@@ -17,9 +17,43 @@ export interface Project {
 }
 
 export const projects: Project[] = [
+    // Poursuite d'étude
+    {
+        id: "project-1",
+        title: "Scholaro",
+        description: "Projet universitaire en HTML / CSS / PHP",
+        fullDescription: "Le département Informatique de l’IUT de Montpellier se réunit chaque fin d’année afin de " +
+            "décider de la poursuite d’étude de chaque étudiant. Pour chaque étudiant, il faut analyser ses notes, " +
+            "les regrouper pour faire des moyennes qui ciblent chaque formation. \n" +
+            "Au fil des années, ce système devient redondant et long pour tout le jury et ne permet pas d’avoir " +
+            "une vue d’ensemble sur tous les étudiants avec les statistiques des avis favorables, défavorables " +
+            "et réservés.\n" +
+            "Le projet qui nous a été confié consiste donc à proposer une application qui permettrait d’automatiser " +
+            "ce long processus afin d’aider le responsable de poursuite d’étude et le jury à faire leur choix " +
+            "vis-à-vis des étudiants. Le site pourrait aider à créer des agrégations, c’est-à-dire des moyennes " +
+            "entre différentes ressources majeures, créer des graphiques correspondants aux moyennes des agrégations " +
+            "et des fichiers PDF remplis automatiquement visant à regrouper l’avis des profs.\n",
+        githubUrl: "",
+        technologies: ["HTML", "CSS", "PHP", "MySQL"],
+        imageUrl: poursuiteetude,
+        features: [
+            "Création d'une map avec un village en 3D",
+            "Le joueur peut contrôler le personnage et aller réaliser les quêtes dans le village",
+            "Barre de progression des tâches"
+        ],
+        challenges: [
+            "Prise en main de Unreal Engine compliquée",
+            "Développement d'un jeu fonctionnel en 30h en partant de zéro",
+            "Développer en équipe en utilisant la méthode agile"
+        ],
+        outcomes: [
+            "Application fonctionnelle répondant aux besoins du client",
+            "Application modulaire grâce au principe SOLID",
+        ]
+    },
     {
         // SAE TRAINS
-        id: "project-1",
+        id: "project-2",
         title: "Jeu de société \"Trains\"",
         description: "Projet universitaire en Java/JavaFX",
         fullDescription: "Pour un projet universitaire, j'ai développé une simulation de jeu de gestion ferroviaire" +
@@ -49,7 +83,7 @@ export const projects: Project[] = [
     },
     // NUIT DE L'INFO 2023
     {
-        id: "project-2",
+        id: "project-3",
         title: "Nuit de l'info 2023",
         description: "Projet réalisé lors d'un évènement universitaire",
         fullDescription: "La Nuit de l’Info est un événement national annuel qui réunit étudiants, enseignants, " +
@@ -84,7 +118,7 @@ export const projects: Project[] = [
     },
     // CGJ 2024
     {
-        id: "project-3",
+        id: "project-4",
         title: "Code Game Jam 2024",
         description: "Projet réalisé lors d'un évènement universitaire",
         fullDescription: "La Code Game Jam est un événement organisé par l'IUT de Montpellier, où des équipes de développeurs ont un temps limité, généralement 36 heures, pour créer un jeu vidéo à partir d'un thème précis. Cet événement se distingue par sa courte durée et son aspect très dynamique, nécessitant une collaboration intense entre les membres de chaque équipe. Les participants doivent faire preuve de créativité, de compétences techniques et de gestion du temps pour livrer un jeu fonctionnel à la fin du challenge.\n" +
@@ -112,40 +146,6 @@ export const projects: Project[] = [
         outcomes: [
             "Gestion efficace du temps.",
             "Jeu fonctionnel",
-        ]
-    },
-    // Poursuite d'étude
-    {
-        id: "project-4",
-        title: "Scholaro",
-        description: "Projet universitaire en HTML / CSS / PHP",
-        fullDescription: "Le département Informatique de l’IUT de Montpellier se réunit chaque fin d’année afin de " +
-            "décider de la poursuite d’étude de chaque étudiant. Pour chaque étudiant, il faut analyser ses notes, " +
-            "les regrouper pour faire des moyennes qui ciblent chaque formation. \n" +
-            "Au fil des années, ce système devient redondant et long pour tout le jury et ne permet pas d’avoir " +
-            "une vue d’ensemble sur tous les étudiants avec les statistiques des avis favorables, défavorables " +
-            "et réservés.\n" +
-            "Le projet qui nous a été confié consiste donc à proposer une application qui permettrait d’automatiser " +
-            "ce long processus afin d’aider le responsable de poursuite d’étude et le jury à faire leur choix " +
-            "vis-à-vis des étudiants. Le site pourrait aider à créer des agrégations, c’est-à-dire des moyennes " +
-            "entre différentes ressources majeures, créer des graphiques correspondants aux moyennes des agrégations " +
-            "et des fichiers PDF remplis automatiquement visant à regrouper l’avis des profs.\n",
-        githubUrl: "",
-        technologies: ["HTML", "CSS", "PHP", "MySQL"],
-        imageUrl: poursuiteetude,
-        features: [
-            "Création d'une map avec un village en 3D",
-            "Le joueur peut contrôler le personnage et aller réaliser les quêtes dans le village",
-            "Barre de progression des tâches"
-        ],
-        challenges: [
-            "Prise en main de Unreal Engine compliquée",
-            "Développement d'un jeu fonctionnel en 30h en partant de zéro",
-            "Développer en équipe en utilisant la méthode agile"
-        ],
-        outcomes: [
-            "Application fonctionnelle répondant aux besoins du client",
-            "Application modulaire grâce au principe SOLID",
         ]
     }
 ];
