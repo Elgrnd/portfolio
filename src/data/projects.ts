@@ -1,5 +1,6 @@
 import trains from '../../assets/img/trains.png';
 import nuitinfo from '../../assets/img/nuitinfo.png';
+import cgj from '../../assets/img/cgj.png';
 
 export interface Project {
     id: string;
@@ -16,6 +17,7 @@ export interface Project {
 
 export const projects: Project[] = [
     {
+        // SAE TRAINS
         id: "project-1",
         title: "Jeu de société \"Trains\"",
         description: "Projet universitaire en Java/JavaFX",
@@ -44,6 +46,7 @@ export const projects: Project[] = [
             "La qualité de l'interface utilisateur et l’expérience de jeu immersive."
         ]
     },
+    // NUIT DE L'INFO 2023
     {
         id: "project-2",
         title: "Nuit de l'info 2023",
@@ -76,6 +79,35 @@ export const projects: Project[] = [
             "Statistiques sur le climat",
             "Réponse à la problématique",
             "Projet contribuable"
+        ]
+    },
+    // CGJ 2024
+    {
+        id: "project-3",
+        title: "Code Game Jam 2024",
+        description: "Projet réalisé lors d'un évènement universitaire",
+        fullDescription: "La Code Game Jam est un événement organisé par l'IUT de Montpellier, où des équipes de développeurs ont un temps limité, généralement 36 heures, pour créer un jeu vidéo à partir d'un thème précis. Cet événement se distingue par sa courte durée et son aspect très dynamique, nécessitant une collaboration intense entre les membres de chaque équipe. Les participants doivent faire preuve de créativité, de compétences techniques et de gestion du temps pour livrer un jeu fonctionnel à la fin du challenge.\n" +
+            "\n" +
+            "En 2024, le thème de la Code Game Jam était \"Légendes éthérées\". Les participants ont donc " +
+            "dû imaginer et développer des jeux vidéo autour de ce concept, mélangeant souvent exploration, " +
+            "créatures fantastiques et éléments mystérieux. Les jeux produits durant cet événement sont variés, " +
+            "allant de la 2D à la 3D, et utilisent différents moteurs de jeu comme Unity ou Unreal Engine",
+        githubUrl: "https://github.com/Elgrnd/CGJ2024",
+        technologies: ["Unreal Engine"],
+        imageUrl: cgj,
+        features: [
+            "Création d'une map avec un village en 3D",
+            "Le joueur peut contrôler le personnage et aller réaliser les quêtes dans le village",
+            "Barre de progression des tâches"
+        ],
+        challenges: [
+            "Prise en main de Unreal Engine compliquée",
+            "Développement d'un jeu fonctionnel en 30h en partant de zéro",
+            "Développement sous pression"
+        ],
+        outcomes: [
+            "Gestion efficace du temps.",
+            "Jeu fonctionnel",
         ]
     }
 ];
