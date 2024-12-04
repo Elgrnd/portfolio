@@ -14,12 +14,12 @@ export interface Project {
 export const projects: Project[] = [
     {
         id: "project-1",
-        title: "Projet 1",
-        description: "Description courte du projet 1",
-        fullDescription: "Description détaillée du projet 1. Ici, vous pouvez expliquer en détail les objectifs, le contexte et les résultats du projet.",
-        githubUrl: "https://github.com/username/project1",
-        technologies: ["React", "TypeScript", "Tailwind CSS"],
-        imageUrl: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97",
+        title: "Jeu de société \"Trains\"",
+        description: "Projet universitaire en Java/JavaFX",
+        fullDescription: "Ce projet ",
+        githubUrl: "https://github.com/Elgrnd/Trains",
+        technologies: ["Java", "JavaFX"],
+        imageUrl: "../../assets/img/trains.png",
         features: [
             "Authentification des utilisateurs",
             "Interface responsive",
