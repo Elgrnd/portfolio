@@ -1,3 +1,5 @@
+import trains from '../../assets/img/trains.png';
+
 export interface Project {
     id: string;
     title: string;
@@ -19,7 +21,7 @@ export const projects: Project[] = [
         fullDescription: "Ce projet ",
         githubUrl: "https://github.com/Elgrnd/Trains",
         technologies: ["Java", "JavaFX"],
-        imageUrl: "../../assets/img/trains.png",
+        imageUrl: trains,
         features: [
             "Authentification des utilisateurs",
             "Interface responsive",
