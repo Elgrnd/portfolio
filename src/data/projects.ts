@@ -1,5 +1,5 @@
 import trains from '../../assets/img/trains.png';
-//import nuitinfo from '../../assets/img/nuitinfo.png';
+import nuitinfo from '../../assets/img/nuitinfo.png';
 
 export interface Project {
     id: string;
@@ -39,33 +39,43 @@ export const projects: Project[] = [
             "Une structure de code propre et maintenable, suivant les principes de la programmation orientée objet."
         ],
         outcomes: [
-            "Amélioration de l'expérience utilisateur",
-            "Réduction du temps de chargement de 50%",
-            "Augmentation du taux de conversion"
+            "Gestion efficace des événements en temps réel.",
+            "La modularité du code, facilitant son évolution ou son extension pour de futures fonctionnalités.",
+            "La qualité de l'interface utilisateur et l’expérience de jeu immersive."
         ]
     },
     {
         id: "project-2",
-        title: "Projet 2",
-        description: "Description courte du projet 2",
-        fullDescription: "Description détaillée du projet 2. Ce projet démontre l'utilisation avancée des technologies modernes du web.",
-        githubUrl: "https://github.com/username/project2",
-        technologies: ["Next.js", "Node.js", "MongoDB"],
-        imageUrl: "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
+        title: "Nuit de l'info 2023",
+        description: "Projet réalisé lors d'un évènement universitaire",
+        fullDescription: "La Nuit de l’Info est un événement national annuel qui réunit étudiants, enseignants, " +
+            "et professionnels pour relever un défi en une nuit, généralement autour du développement " +
+            "d’une application web. Le sujet principal portait sur le thème \"Faire face au changement climatique : " +
+            "le vrai du faux\", avec pour objectif de concevoir une application interactive permettant de déconstruire " +
+            "des idées reçues sur le climat et de promouvoir des solutions viables pour réduire les émissions de gaz à " +
+            "effet de serre.",
+        githubUrl: "https://github.com/Elgrnd/Nuit-de-linfo",
+        technologies: ["HTML", "CSS", "JS"],
+        imageUrl: nuitinfo,
         features: [
-            "API RESTful",
-            "Dashboard administrateur",
-            "Système de notifications"
+            "Présentation claire et engageante des impacts du changement climatique.",
+            "Solutions proposées pour réduire l'empreinte carbone et s'adapter aux changements.",
+            "Design interactif pour capter l'attention des utilisateurs.",
+            "Chat bot alimenté par ChatGPT",
         ],
         challenges: [
-            "Scalabilité de l'application",
-            "Sécurité des données",
-            "Performance du backend"
+            "Montrer comment faire face au changement climatique",
+            "Travail en équipe sous pression : Durant une nuit entière, j'ai collaboré efficacement avec mes " +
+            "coéquipiers malgré le stress, la fatigue et les distractions autour de nous.",
+            "Gestion du temps : Nous avons dû organiser nos tâches et prioriser les fonctionnalités clés " +
+            "dans un délai extrêmement restreint.",
+            "Esprit d'équipe : Cette expérience m'a appris l'importance de la communication, du soutien mutuel " +
+            "et de la cohésion pour mener à bien un projet ambitieux."
         ],
         outcomes: [
-            "Architecture scalable",
-            "Satisfaction client élevée",
-            "Maintenance facilitée"
+            "Statistiques sur le climat",
+            "Réponse à la problématique",
+            "Projet contribuable"
         ]
     }
 ];
