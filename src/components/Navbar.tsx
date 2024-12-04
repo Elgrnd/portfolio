@@ -29,7 +29,7 @@ const Navbar = () => {
             <a href="https://www.buymeacoffee.com/elgrnd" target="_blank" rel="noopener noreferrer" className="hover:text-gray-300">
               <Coffee size={20} />
             </a>
-            <a href="/assets/CV_website.pdf" target="_blank" rel="noopener noreferrer" className="hover:text-gray-300">
+            <a href="../../assets/CV_website.pdf" target="_blank" rel="noopener noreferrer" className="hover:text-gray-300">
               <FileText size={20} />
             </a>
           </div>
