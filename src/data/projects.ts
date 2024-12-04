@@ -37,13 +37,16 @@ export const projects: Project[] = [
         technologies: ["HTML", "CSS", "PHP", "MySQL"],
         imageUrl: poursuiteetude,
         features: [
-            "Création d'une map avec un village en 3D",
-            "Le joueur peut contrôler le personnage et aller réaliser les quêtes dans le village",
-            "Barre de progression des tâches"
+            "Importer des étudiants à partir de fichiers csv",
+            "Importer les notes des étudiants",
+            "Pouvoir se connecter en tant qu'étudiant ou professeur via LDAP",
+            "Créer des agrégations par ressources",
+            "Générer des graphiques en fonction des agrégations",
+            "Générer des fichiers PDF pré-remplis concernant la poursuite d'étude",
         ],
         challenges: [
-            "Prise en main de Unreal Engine compliquée",
-            "Développement d'un jeu fonctionnel en 30h en partant de zéro",
+            "Permettre une automatisation partielle des avis de poursuite d'étude",
+            "Pouvoir avoir une vue d'ensemble de tous les étudiants",
             "Développer en équipe en utilisant la méthode agile"
         ],
         outcomes: [
@@ -131,16 +134,13 @@ export const projects: Project[] = [
         technologies: ["Unreal Engine"],
         imageUrl: cgj,
         features: [
-            "Importer des étudiants à partir de fichiers csv",
-            "Importer les notes des étudiants",
-            "Pouvoir se connecter en tant qu'étudiant ou professeur via LDAP",
-            "Créer des agrégations par ressources",
-            "Générer des graphiques en fonction des agrégations",
-            "Générer des fichiers PDF pré-remplis concernant la poursuite d'étude",
+            "Création d'une map avec un village en 3D",
+            "Le joueur peut contrôler le personnage et aller réaliser les quêtes dans le village",
+            "Barre de progression des tâches"
         ],
         challenges: [
-            "Permettre une automatisation partielle des avis de poursuite d'étude",
-            "Pouvoir avoir une vue d'ensemble de tous les étudiants",
+            "Prise en main de Unreal Engine compliquée",
+            "Développement d'un jeu fonctionnel en 30h en partant de zéro",
             "Développement sous pression"
         ],
         outcomes: [
