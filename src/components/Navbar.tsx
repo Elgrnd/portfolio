@@ -1,6 +1,7 @@
 import { Menu, X, Github, Linkedin, FileText, Coffee } from 'lucide-react';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
+import cv from '../../assets/CV_website.pdf';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -29,7 +30,7 @@ const Navbar = () => {
             <a href="https://www.buymeacoffee.com/elgrnd" target="_blank" rel="noopener noreferrer" className="hover:text-gray-300">
               <Coffee size={20} />
             </a>
-            <a href="../../assets/CV_website.pdf" target="_blank" rel="noopener noreferrer" className="hover:text-gray-300">
+            <a href={cv} target="_blank" rel="noopener noreferrer" className="hover:text-gray-300">
               <FileText size={20} />
             </a>
           </div>
