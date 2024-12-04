@@ -19,7 +19,7 @@ export const projects: Project[] = [
         fullDescription: "Ce projet ",
         githubUrl: "https://github.com/Elgrnd/Trains",
         technologies: ["Java", "JavaFX"],
-        imageUrl: "../../assets/img/trains.png",
+        imageUrl: "/trains.png",
         features: [
             "Authentification des utilisateurs",
             "Interface responsive",
