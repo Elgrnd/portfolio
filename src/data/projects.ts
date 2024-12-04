@@ -27,18 +27,11 @@ export const projects: Project[] = [
         technologies: ["Java", "JavaFX"],
         imageUrl: trains,
         features: [
-            "Gestion des trains :\n" +
-            "\n" +
             "Les trains peuvent être ajoutés au réseau, configurés (vitesse, itinéraire), et suivis en temps réel.",
-            "Construction de voies ferrées :\n" +
-            "\n" +
-            "Interface interactive permettant de construire des rails pour relier des villes et des industries.\n" +
+            "Interface interactive permettant de construire des rails pour relier des villes et des industries.",
             "Système de coût en ressources pour simuler des contraintes budgétaires.",
-            "Interface utilisateur (UI) avec JavaFX :\n" +
-            "\n" +
-            "Vue dynamique : Représentation graphique des rails, gares, et trains.\n" +
-            "Panneau de contrôle : Gestion centralisée des trains et des itinéraires.",
-
+            "Interface utilisateur (UI) avec JavaFX",
+            "Vue dynamique : Représentation graphique des rails, gares, et trains.",
         ],
         challenges: [
             "Une mécanique de simulation réaliste (gestion des trains, construction de voies ferrées).",
