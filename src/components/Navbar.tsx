@@ -1,4 +1,3 @@
-import React from 'react';
 import { Menu, X, Github, Linkedin, FileText, Coffee } from 'lucide-react';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
@@ -10,7 +9,7 @@ const Navbar = () => {
     <nav className="bg-gray-900 text-white fixed w-full z-10">
       <div className="max-w-7xl mx-auto px-4">
         <div className="flex justify-between items-center h-16">
-          <Link to="/" className="text-xl font-bold">Portfolio</Link>
+          <Link to="/" className="text-xl font-bold">Portfolio universitaire</Link>
           
           {/* Desktop Menu */}
           <div className="hidden md:flex space-x-8">
@@ -21,16 +20,16 @@ const Navbar = () => {
 
           {/* Social Links */}
           <div className="hidden md:flex items-center space-x-4">
-            <a href="https://github.com/votre-username" target="_blank" rel="noopener noreferrer" className="hover:text-gray-300">
+            <a href="https://github.com/elgrnd" target="_blank" rel="noopener noreferrer" className="hover:text-gray-300">
               <Github size={20} />
             </a>
-            <a href="https://linkedin.com/in/votre-profil" target="_blank" rel="noopener noreferrer" className="hover:text-gray-300">
+            <a href="https://www.linkedin.com/in/galdric-desert-caparros-5869ab2aa/" target="_blank" rel="noopener noreferrer" className="hover:text-gray-300">
               <Linkedin size={20} />
             </a>
-            <a href="https://www.buymeacoffee.com/votre-profil" target="_blank" rel="noopener noreferrer" className="hover:text-gray-300">
+            <a href="https://www.buymeacoffee.com/elgrnd" target="_blank" rel="noopener noreferrer" className="hover:text-gray-300">
               <Coffee size={20} />
             </a>
-            <a href="/votre-cv.pdf" target="_blank" rel="noopener noreferrer" className="hover:text-gray-300">
+            <a href="/assets/CV_website.pdf" target="_blank" rel="noopener noreferrer" className="hover:text-gray-300">
               <FileText size={20} />
             </a>
           </div>

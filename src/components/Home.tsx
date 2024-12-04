@@ -61,9 +61,8 @@ const Home = () => {
                             <h3 className="text-xl font-semibold mb-4">Centres d'intérêt</h3>
                             <ul className="list-disc list-inside text-gray-600">
                                 <li>Développement Web</li>
-                                <li>Intelligence Artificielle</li>
-                                <li>Cybersécurité</li>
-                                <li>[Autres centres d'intérêt]</li>
+                                <li>Développement d'application</li>
+                                <li>Football</li>
                             </ul>
                         </div>
                     </div>
