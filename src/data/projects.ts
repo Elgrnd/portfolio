@@ -95,7 +95,7 @@ export const projects: Project[] = [
             "allant de la 2D à la 3D, et utilisent différents moteurs de jeu comme Unity ou Unreal Engine",
         githubUrl: "https://github.com/Elgrnd/CGJ2024",
         technologies: ["Unreal Engine"],
-        imageUrl: poursuiteetude,
+        imageUrl: cgj,
         features: [
             "Importer des étudiants à partir de fichiers csv",
             "Importer les notes des étudiants",
@@ -132,7 +132,7 @@ export const projects: Project[] = [
             "et des fichiers PDF remplis automatiquement visant à regrouper l’avis des profs.\n",
         githubUrl: "",
         technologies: ["HTML", "CSS", "PHP", "MySQL"],
-        imageUrl: cgj,
+        imageUrl: poursuiteetude,
         features: [
             "Création d'une map avec un village en 3D",
             "Le joueur peut contrôler le personnage et aller réaliser les quêtes dans le village",
