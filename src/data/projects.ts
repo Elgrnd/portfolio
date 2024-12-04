@@ -1,6 +1,7 @@
 import trains from '../../assets/img/trains.png';
 import nuitinfo from '../../assets/img/nuitinfo.png';
 import cgj from '../../assets/img/cgj.png';
+import poursuiteetude from '../../assets/img/poursuiteetudes.png';
 
 export interface Project {
     id: string;
@@ -94,6 +95,43 @@ export const projects: Project[] = [
             "allant de la 2D à la 3D, et utilisent différents moteurs de jeu comme Unity ou Unreal Engine",
         githubUrl: "https://github.com/Elgrnd/CGJ2024",
         technologies: ["Unreal Engine"],
+        imageUrl: poursuiteetude,
+        features: [
+            "Importer des étudiants à partir de fichiers csv",
+            "Importer les notes des étudiants",
+            "Pouvoir se connecter en tant qu'étudiant ou professeur via LDAP",
+            "Créer des agrégations par ressources",
+            "Générer des graphiques en fonction des agrégations",
+            "Générer des fichiers PDF pré-remplis concernant la poursuite d'étude",
+        ],
+        challenges: [
+            "Permettre une automatisation partielle des avis de poursuite d'étude",
+            "Pouvoir avoir une vue d'ensemble de tous les étudiants",
+            "Développement sous pression"
+        ],
+        outcomes: [
+            "Gestion efficace du temps.",
+            "Jeu fonctionnel",
+        ]
+    },
+    // Poursuite d'étude
+    {
+        id: "project-4",
+        title: "Scholaro",
+        description: "Projet universitaire en HTML / CSS / PHP",
+        fullDescription: "Le département Informatique de l’IUT de Montpellier se réunit chaque fin d’année afin de " +
+            "décider de la poursuite d’étude de chaque étudiant. Pour chaque étudiant, il faut analyser ses notes, " +
+            "les regrouper pour faire des moyennes qui ciblent chaque formation. \n" +
+            "Au fil des années, ce système devient redondant et long pour tout le jury et ne permet pas d’avoir " +
+            "une vue d’ensemble sur tous les étudiants avec les statistiques des avis favorables, défavorables " +
+            "et réservés.\n" +
+            "Le projet qui nous a été confié consiste donc à proposer une application qui permettrait d’automatiser " +
+            "ce long processus afin d’aider le responsable de poursuite d’étude et le jury à faire leur choix " +
+            "vis-à-vis des étudiants. Le site pourrait aider à créer des agrégations, c’est-à-dire des moyennes " +
+            "entre différentes ressources majeures, créer des graphiques correspondants aux moyennes des agrégations " +
+            "et des fichiers PDF remplis automatiquement visant à regrouper l’avis des profs.\n",
+        githubUrl: "",
+        technologies: ["HTML", "CSS", "PHP", "MySQL"],
         imageUrl: cgj,
         features: [
             "Création d'une map avec un village en 3D",
@@ -103,11 +141,11 @@ export const projects: Project[] = [
         challenges: [
             "Prise en main de Unreal Engine compliquée",
             "Développement d'un jeu fonctionnel en 30h en partant de zéro",
-            "Développement sous pression"
+            "Développer en équipe en utilisant la méthode agile"
         ],
         outcomes: [
-            "Gestion efficace du temps.",
-            "Jeu fonctionnel",
+            "Application fonctionnelle répondant aux besoins du client",
+            "Application modulaire grâce au principe SOLID",
         ]
     }
 ];
