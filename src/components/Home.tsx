@@ -53,8 +53,7 @@ const Home = () => {
                                 <br></br><br></br>
 
                                 Je suis toujours en quête de nouveaux défis et de projets qui me permettront de
-                                continuer à <strong>évoluer</strong>
-                                dans ce domaine en constante innovation.
+                                continuer à <strong>évoluer</strong> dans ce domaine en constante innovation.
                             </p>
                         </div>
                         <div>
