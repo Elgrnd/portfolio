@@ -68,18 +68,19 @@ export const projects: Project[] = [
         technologies: ["HTML", "CSS", "JS"],
         imageUrl: mybabysittings,
         features: [
-            "Création d'une map avec un village en 3D",
-            "Le joueur peut contrôler le personnage et aller réaliser les quêtes dans le village",
-            "Barre de progression des tâches"
+            "Enregistrer des babysittings effectués",
+            "Consulter les babysittings effectués",
+            "Avoir accès à des statistiques personnalisées comme le salaire ou le nombre d'heures totales"
         ],
         challenges: [
-            "Prise en main de Unreal Engine compliquée",
-            "Développement d'un jeu fonctionnel en 30h en partant de zéro",
-            "Développement sous pression"
+            "Apprendre à développer une progressive web app",
+            "Apprendre à programmer en Javascript",
+            "Aoorendre a créer une base de donnée en local avec sql.js"
         ],
         outcomes: [
-            "Gestion efficace du temps.",
-            "Jeu fonctionnel",
+            "Application fonctionnelle",
+            "Application intuitive",
+            "Application apportant un gain de temps à l'utilisateur"
         ]
     },
     // SAE TRAINS
