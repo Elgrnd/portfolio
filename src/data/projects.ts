@@ -2,6 +2,7 @@ import trains from '../../assets/img/trains.png';
 import nuitinfo from '../../assets/img/nuitinfo.png';
 import cgj from '../../assets/img/cgj.png';
 import poursuiteetude from '../../assets/img/poursuiteetudes.png';
+import mybabysittings from '../../assets/img/mybabysittings.png';
 
 export interface Project {
     id: string;
@@ -54,9 +55,36 @@ export const projects: Project[] = [
             "Application modulaire grâce au principe SOLID",
         ]
     },
+    // MyBabySittings
     {
-        // SAE TRAINS
         id: "project-2",
+        title: "My BabySittings",
+        description: "Projet personnel de suivi de ses babysittings",
+        fullDescription: "MyBabySittings est une Progressive Web App (PWA) destinée aux babysitters pour leur " +
+            "permettre de suivre facilement leurs prestations, leurs heures travaillées, leurs revenus, " +
+            "et d’obtenir des statistiques détaillées sur leurs activités. L'application offre une interface simple, " +
+            "moderne, et responsive, adaptée à une utilisation sur smartphone ou tablette.",
+        githubUrl: "https://github.com/Elgrnd/babysitting-salaire-tracker",
+        technologies: ["HTML", "CSS", "JS"],
+        imageUrl: mybabysittings,
+        features: [
+            "Création d'une map avec un village en 3D",
+            "Le joueur peut contrôler le personnage et aller réaliser les quêtes dans le village",
+            "Barre de progression des tâches"
+        ],
+        challenges: [
+            "Prise en main de Unreal Engine compliquée",
+            "Développement d'un jeu fonctionnel en 30h en partant de zéro",
+            "Développement sous pression"
+        ],
+        outcomes: [
+            "Gestion efficace du temps.",
+            "Jeu fonctionnel",
+        ]
+    },
+    // SAE TRAINS
+    {
+        id: "project-3",
         title: "Jeu de société \"Trains\"",
         description: "Projet universitaire en Java/JavaFX",
         fullDescription: "Pour un projet universitaire, j'ai développé une simulation de jeu de gestion ferroviaire" +
@@ -86,7 +114,7 @@ export const projects: Project[] = [
     },
     // NUIT DE L'INFO 2023
     {
-        id: "project-3",
+        id: "project-4",
         title: "Nuit de l'info 2023",
         description: "Projet réalisé lors d'un évènement universitaire",
         fullDescription: "La Nuit de l’Info est un événement national annuel qui réunit étudiants, enseignants, " +
@@ -121,7 +149,7 @@ export const projects: Project[] = [
     },
     // CGJ 2024
     {
-        id: "project-4",
+        id: "project-5",
         title: "Code Game Jam 2024",
         description: "Projet réalisé lors d'un évènement universitaire",
         fullDescription: "La Code Game Jam est un événement organisé par l'IUT de Montpellier, où des équipes de développeurs ont un temps limité, généralement 36 heures, pour créer un jeu vidéo à partir d'un thème précis. Cet événement se distingue par sa courte durée et son aspect très dynamique, nécessitant une collaboration intense entre les membres de chaque équipe. Les participants doivent faire preuve de créativité, de compétences techniques et de gestion du temps pour livrer un jeu fonctionnel à la fin du challenge.\n" +
