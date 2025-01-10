@@ -44,7 +44,7 @@ const ProjectDetail = () => {
                                 rel="noopener noreferrer"
                                 className="inline-flex items-center text-gray-700 hover:text-gray-900"
                             >
-                                <Github className="mr-2" size={24} />
+                                <Github className="mr-2" size={24}/>
                                 Voir sur GitHub
                             </a>
                         </div>
@@ -95,6 +95,35 @@ const ProjectDetail = () => {
                                     ))}
                                 </ul>
                             </div>
+
+                            <div>
+                                <hr/>
+                                <h2 className="text-xl font-semibold mb-3">Compétences travaillées</h2>
+                                <ul className="list-disc list-inside text-gray-700">
+                                    {project.competences.map((competence, index) => (
+                                        <li key={index}>{competence}</li>
+                                    ))}
+                                </ul>
+                            </div>
+
+                            <div>
+                                <hr/>
+                                <h2 className="text-xl font-semibold mb-3">Apprentissage critique</h2>
+                                <ul className="list-disc list-inside text-gray-700">
+                                    {project.apprcritique.map((apprcritique, index) => (
+                                        <li key={index}>{apprcritique}</li>
+                                    ))}
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div className="mt-8">
+                            {project.apprcritique.map((apprcritique, index) => (
+                                <><h2 className="text-xl font-semibold mb-3" key={index}>{apprcritique}</h2><p
+                                    className="text-gray-700">{project.apprcritiqueDescription[index]}</p>
+                                    <hr/>
+                                </>
+                            ))}
                         </div>
                     </div>
                 </div>

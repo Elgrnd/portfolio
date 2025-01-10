@@ -15,6 +15,9 @@ export interface Project {
     features: string[];
     challenges: string[];
     outcomes: string[];
+    competences: string[];
+    apprcritique: string[];
+    apprcritiqueDescription: string[];
 }
 
 export const projects: Project[] = [
@@ -34,7 +37,7 @@ export const projects: Project[] = [
             "vis-à-vis des étudiants. Le site pourrait aider à créer des agrégations, c’est-à-dire des moyennes " +
             "entre différentes ressources majeures, créer des graphiques correspondants aux moyennes des agrégations " +
             "et des fichiers PDF remplis automatiquement visant à regrouper l’avis des profs.\n",
-        githubUrl: "",
+        githubUrl: "https://github.com/Elgrnd/scholaro",
         technologies: ["HTML", "CSS", "PHP", "MySQL"],
         imageUrl: poursuiteetude,
         features: [
@@ -53,6 +56,40 @@ export const projects: Project[] = [
         outcomes: [
             "Application fonctionnelle répondant aux besoins du client",
             "Application modulaire grâce au principe SOLID",
+        ],
+        competences: [
+            "UE 1 : Réaliser un développement d’application",
+            "UE 2 : Optimiser des applications",
+            "UE 3 : Administrer des systèmes informatiques communicants complexes",
+            "UE 4 : Gérer des données de l’information",
+            "UE 5 : Conduire un projet",
+            "UE 6 : Collaborer au sein d’une équipe informatique"
+        ],
+        apprcritique: [
+            "AC 1.1 : Élaborer et implémenter les spécifications fonctionnelles et non\n" +
+            "fonctionnelles à partir des exigences\n",
+            "AC 1.2 : Appliquer des principes d’accessibilité et d’ergonomie",
+            "AC 1.3 : Adopter de bonnes pratiques de conception et de programmation",
+            "AC 1.4 : Vérifier et valider la qualité de l’application par les tests",
+            "AC 4.1 : Optimiser les modèles de données de l’entreprise\n",
+            "AC 4.2 : Assurer la confidentialité des données (intégrité et sécurité)",
+            "AC 4.3 : Organiser la restitution de données à travers la programmation et la visualisation",
+            "AC 5.2 : Formaliser les besoins du client et de l’utilisateur",
+            "AC 5.3 : Identifier les critères de faisabilité d’un projet informatique",
+            "AC 6.3 : Mobiliser les compétences interpersonnelles pour intégrer une équipe\n" +
+            "informatique"
+        ],
+        apprcritiqueDescription: [
+            "Le projet a été réalisé d'après les exigences du client.",
+            "L'application réalisée est très intuitive et claire.",
+            "La conception a été réfléchie en amont du projet, puis une fois l'idée principale de l'application, nous avons commencé à coder.",
+            "Chaque user story a été testée puis validée par le client lors des revues de sprint.",
+            "Les données recueillies ont été optimisées rendant l'application plus rapide.",
+            "Les données sont stockées dans la base de données et les mots de passe des utilisateurs sont chiffrés avec un poivre stocké dans le code.",
+            "Les données stockées sont réutilisées dans les fonctionnalités de l'application.",
+            "Les besoins du client ont été analysé en interne puis mis au clair par le client lui-même via des rendez-vous.",
+            "Certaines fonctionnalités que le client a proposé ont été refusées à cause de leur non-faisabilité.",
+            "Les compétences de chaque membre de l'équipe ont été mises en avant et ont contribué au bon déroulement du projet."
         ]
     },
     // MyBabySittings
@@ -81,6 +118,26 @@ export const projects: Project[] = [
             "Application fonctionnelle",
             "Application intuitive",
             "Application apportant un gain de temps à l'utilisateur"
+        ],
+        competences: [
+            "UE 1 : Réaliser un développement d’application",
+            "UE 4 : Gérer des données de l’information",
+            "UE 5 : Conduire un projet"
+        ],
+        apprcritique: [
+            "AC 1.1 : Élaborer et implémenter les spécifications fonctionnelles et non\n" +
+            "fonctionnelles à partir des exigences\n",
+            "AC 1.2 : Appliquer des principes d’accessibilité et d’ergonomie",
+            "AC 4.2 : Assurer la confidentialité des données (intégrité et sécurité)",
+            "AC 4.3 : Organiser la restitution de données à travers la programmation et la visualisation",
+            "AC 5.2 : Formaliser les besoins du client et de l’utilisateur",
+        ],
+        apprcritiqueDescription: [
+            "Le client m'a demandé de créer une application de gestion de salaire de babysittings que j'ai effectué.",
+            "L'application a été pensée pour être ouverte sur téléphone et est très simple d'utilisation.",
+            "Les données sont stockées en cache et sont donc disponible uniquement pour l'utilisateur.",
+            "L'utilisateur a la possibilité de consulter ses données à travers l'application.",
+            "Les besoins du client ont été analysé en interne puis mis au clair par le client lui-même via des rendez-vous."
         ]
     },
     // SAE TRAINS
@@ -111,6 +168,27 @@ export const projects: Project[] = [
             "Gestion efficace des événements en temps réel.",
             "La modularité du code, facilitant son évolution ou son extension pour de futures fonctionnalités.",
             "La qualité de l'interface utilisateur et l’expérience de jeu immersive."
+        ],
+        competences: [
+            "UE 1 : Réaliser un développement d’application",
+            "UE 2 : Optimiser des applications ",
+            "UE 5 : Conduire un projet",
+            "UE 6 : Collaborer au sein d’une équipe informatique"
+        ],
+        apprcritique: [
+            "AC 1.1 : Implémenter des conceptions simples",
+            "AC 1.4 : Développer des interfaces utilisateurs\n",
+            "AC 2.3 : Formaliser et mettre en œuvre des outils mathématiques pour\n" +
+            "l’informatique",
+            "AC 5.1 : Appréhender les besoins du client et de l’utilisateur\n",
+            "AC 6.4 : Acquérir les compétences interpersonnelles pour travailler en équipe"
+        ],
+        apprcritiqueDescription: [
+            "Le projet a été réalisé comme demandé au préalable.",
+            "Lors de ce projet, nous avons développé une interface graphique pour l'utilisateur.",
+            "Pour coder le corps du projet nous avons utilisé les graphes, une notion vue en mathématiques.",
+            "Le client était satisfait de notre travail.",
+            "Lors de ce projet j'ai appris à travailler en équipe et à répartir différentes tâches."
         ]
     },
     // NUIT DE L'INFO 2023
@@ -146,6 +224,18 @@ export const projects: Project[] = [
             "Statistiques sur le climat",
             "Réponse à la problématique",
             "Projet contribuable"
+        ],
+        competences: [
+            "UE 1 : Réaliser un développement d’application",
+            "UE 2 : Optimiser des applications ",
+            "UE 5 : Conduire un projet",
+            "UE 6 : Collaborer au sein d’une équipe informatique"
+        ],
+        apprcritique: [
+            "N/A"
+        ],
+        apprcritiqueDescription: [
+
         ]
     },
     // CGJ 2024
@@ -175,6 +265,18 @@ export const projects: Project[] = [
         outcomes: [
             "Gestion efficace du temps.",
             "Jeu fonctionnel",
+        ],
+        competences: [
+            "UE 1 : Réaliser un développement d’application",
+            "UE 2 : Optimiser des applications ",
+            "UE 5 : Conduire un projet",
+            "UE 6 : Collaborer au sein d’une équipe informatique"
+        ],
+        apprcritique: [
+            "N/A"
+        ],
+        apprcritiqueDescription: [
+
         ]
     }
 ];
