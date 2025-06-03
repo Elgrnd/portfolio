@@ -62,7 +62,6 @@ const ContactPage: React.FC = () => {
                 <h2 className="text-2xl font-bold text-gray-800 mb-6">Téléchargez mon CV</h2>
                 <a 
                   href="/assets/CV.pdf"
-                  download="YourName_CV.pdf"
                   className="bg-blue-600 text-white px-6 py-3 rounded-lg font-medium inline-flex items-center hover:bg-blue-700 transition-colors shadow-md"
                 >
                   <FileText className="mr-2 h-5 w-5" />
