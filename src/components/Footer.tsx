@@ -1,4 +1,3 @@
-import React from 'react';
 import { Github as GitHub, Linkedin, Mail } from 'lucide-react';
 
 const Footer: React.FC = () => {
@@ -14,7 +13,7 @@ const Footer: React.FC = () => {
           
           <div className="flex space-x-4">
             <a 
-              href="https://github.com/yourusername" 
+              href="https://github.com/Elgrnd"
               target="_blank" 
               rel="noopener noreferrer"
               className="text-gray-300 hover:text-white transition-colors"
@@ -23,7 +22,7 @@ const Footer: React.FC = () => {
               <GitHub className="h-5 w-5" />
             </a>
             <a 
-              href="https://linkedin.com/in/yourusername" 
+              href="https://www.linkedin.com/in/galdric-desert-caparros-5869ab2aa/"
               target="_blank" 
               rel="noopener noreferrer"
               className="text-gray-300 hover:text-white transition-colors"
@@ -32,7 +31,7 @@ const Footer: React.FC = () => {
               <Linkedin className="h-5 w-5" />
             </a>
             <a 
-              href="mailto:your.email@example.com" 
+              href="mailto:galdric.dc@laposte.net"
               className="text-gray-300 hover:text-white transition-colors"
               aria-label="Email Contact"
             >
