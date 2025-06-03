@@ -1,4 +1,5 @@
 import { Mail, Phone, MapPin, Github as GitHub, Linkedin, FileText, ExternalLink } from 'lucide-react';
+import cv from '../../assets/CV.pdf';
 
 const ContactPage: React.FC = () => {
   return (
@@ -61,7 +62,8 @@ const ContactPage: React.FC = () => {
               <div className="mt-12">
                 <h2 className="text-2xl font-bold text-gray-800 mb-6">Téléchargez mon CV</h2>
                 <a 
-                  href="/assets/CV.pdf"
+                  href={cv}
+                  target="_blank"
                   className="bg-blue-600 text-white px-6 py-3 rounded-lg font-medium inline-flex items-center hover:bg-blue-700 transition-colors shadow-md"
                 >
                   <FileText className="mr-2 h-5 w-5" />
