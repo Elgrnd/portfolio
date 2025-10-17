@@ -65,7 +65,6 @@ export const projects: Project[] = [
         "permettre de suivre facilement leurs prestations, leurs heures travaillées, leurs revenus, " +
         "et d’obtenir des statistiques détaillées sur leurs activités. L'application offre une interface simple, " +
         "moderne, et responsive, adaptée à une utilisation sur smartphone ou tablette.",
-    githubUrl: "https://github.com/Elgrnd/babysitting-salaire-tracker",
     image: mybabysittings,
     category: "Progressive web-app",
     technologies: ["HTML", "CSS", "JS"],
