@@ -12,7 +12,7 @@ const HomePage: React.FC = () => {
                             Bonjour, je suis <span className="text-yellow-300">Galdric DESERT-CAPARROS </span>
                         </h1>
                         <p className="text-xl mb-6 text-blue-100">
-                            Étudiant en 2e année de BUT Informatique à Montpellier
+                            Étudiant en 3e année de BUT Informatique à Montpellier
                         </p>
                         <p className="text-lg mb-8 max-w-2xl">
                             Bienvenue dans mon portfolio ! Je suis passionné par la création de projets informatiques
