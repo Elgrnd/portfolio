@@ -22,6 +22,31 @@ export interface Project {
 
 export const projects: Project[] = [
   {
+    id: "dockeriut",
+    title: "Docker IUT",
+    summary: "Projet universitaire en Symfony/Javascript",
+    description: "Pour un projet universitaire, en groupe, nous avons développé un site web en Symfony et Javascript " +
+        "qui permet aux étudiants de BUT Informatique à Montpellier de créer des VM via ProxMox permettant de travailler " +
+        "dans un environnement similaire mais isolé (pas sur le même docker engine).",
+    image: dockeriut,
+    category: "Développement web",
+    technologies: ["Symfony", "Bootstrap", "Javascript"],
+    date: "Avril 2026",
+    team: "Équipe de 6 personnes",
+    githubUrl: "https://github.com/Elgrnd/docker-project",
+    features: [
+      "Les éléves peuvent exécuter leur conteneurs dans leur VM respective",
+      "Les professeurs peuvent créer des groupes de travail pour les TPs/TDs",
+      "Les profs ont accès au monitoring de toutes les machines virtuelles pour vérifier le travail",
+      "Les étudiants peuvent versionner leurs fichiers sur gitlab",
+    ],
+    learnings: [
+      "Apprentissage de l'API ProxMox",
+      "Apprentissage de l'isolation de plusieurs docker engine",
+      "Approfondissement du développement en Symfony"
+    ]
+  }
+  {
     id: "web-app",
     title: "Scholaro",
     summary: "Projet universitaire en HTML / CSS / PHP",
@@ -140,31 +165,6 @@ export const projects: Project[] = [
       "dans un délai extrêmement restreint.",
       "Esprit d'équipe : Cette expérience m'a appris l'importance de la communication, du soutien mutuel " +
       "et de la cohésion pour mener à bien un projet ambitieux."
-    ]
-  },
-  {
-    id: "dockeriut",
-    title: "Docker IUT",
-    summary: "Projet universitaire en Symfony/Javascript",
-    description: "Pour un projet universitaire, en groupe, nous avons développé un site web en Symfony et Javascript " +
-        "qui permet aux étudiants de BUT Informatique à Montpellier de créer des VM via ProxMox permettant de travailler " +
-        "dans un environnement similaire mais isolé (pas sur le même docker engine).",
-    image: dockeriut,
-    category: "Développement web",
-    technologies: ["Symfony", "Bootstrap", "Javascript"],
-    date: "Avril 2026",
-    team: "Équipe de 6 personnes",
-    githubUrl: "https://github.com/Elgrnd/docker-project",
-    features: [
-      "Les éléves peuvent exécuter leur conteneurs dans leur VM respective",
-      "Les professeurs peuvent créer des groupes de travail pour les TPs/TDs",
-      "Les profs ont accès au monitoring de toutes les machines virtuelles pour vérifier le travail",
-      "Les étudiants peuvent versionner leurs fichiers sur gitlab",
-    ],
-    learnings: [
-      "Apprentissage de l'API ProxMox",
-      "Apprentissage de l'isolation de plusieurs docker engine",
-      "Approfondissement du développement en Symfony"
     ]
   }
 ];
