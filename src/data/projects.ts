@@ -45,7 +45,7 @@ export const projects: Project[] = [
       "Apprentissage de l'isolation de plusieurs docker engine",
       "Approfondissement du développement en Symfony"
     ]
-  }
+  },
   {
     id: "web-app",
     title: "Scholaro",
