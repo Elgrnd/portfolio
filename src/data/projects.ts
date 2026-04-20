@@ -1,8 +1,8 @@
-import trains from '../../assets/img/trains.png';
 import nuitinfo from '../../assets/img/nuitinfo.png';
 import cgj from '../../assets/img/cgj.png';
 import poursuiteetude from '../../assets/img/poursuiteetudes.png';
 import mybabysittings from '../../assets/img/mybabysittings.png';
+import dockeriut from '../../assets/img/dockeriut.png'
 
 export interface Project {
   id: string;
@@ -143,30 +143,28 @@ export const projects: Project[] = [
     ]
   },
   {
-    id: "trains",
-    title: "Jeu de société \"Trains\"",
-    summary: "Projet universitaire en Java/JavaFX",
-    description: "Pour un projet universitaire, j'ai développé une simulation de jeu de gestion ferroviaire" +
-        " intitulée Trains, en utilisant Java pour la logique métier et JavaFX pour l'interface graphique. " +
-        "Ce projet combine des éléments de stratégie, d'optimisation, et de programmation orientée objet pour " +
-        "créer une expérience engageante et interactive.",
-    image: trains,
-    category: "Développement Java",
-    technologies: ["Java", "JavaFX"],
-    date: "Mai 2024",
-    team: "Équipe de 2 personnes",
-    githubUrl: "https://github.com/Elgrnd/Trains",
+    id: "dockeriut",
+    title: "Docker IUT",
+    summary: "Projet universitaire en Symfony/Javascript",
+    description: "Pour un projet universitaire, en groupe, nous avons développé un site web en Symfony et Javascript " +
+        "qui permet aux étudiants de BUT Informatique à Montpellier de créer des VM via ProxMox permettant de travailler " +
+        "dans un environnement similaire mais isolé (pas sur le même docker engine).",
+    image: dockeriut,
+    category: "Développement web",
+    technologies: ["Symfony", "Bootstrap", "Javascript"],
+    date: "Avril 2026",
+    team: "Équipe de 6 personnes",
+    githubUrl: "https://github.com/Elgrnd/docker-project",
     features: [
-      "Les trains peuvent être ajoutés au réseau, configurés (vitesse, itinéraire), et suivis en temps réel.",
-      "Interface interactive permettant de construire des rails pour relier des villes et des industries.",
-      "Système de coût en ressources pour simuler des contraintes budgétaires.",
-      "Interface utilisateur (UI) avec JavaFX",
-      "Vue dynamique : Représentation graphique des rails, gares, et trains.",
+      "Les éléves peuvent exécuter leur conteneurs dans leur VM respective",
+      "Les professeurs peuvent créer des groupes de travail pour les TPs/TDs",
+      "Les profs ont accès au monitoring de toutes les machines virtuelles pour vérifier le travail",
+      "Les étudiants peuvent versionner leurs fichiers sur gitlab",
     ],
     learnings: [
-      "Une mécanique de simulation réaliste (gestion des trains, construction de voies ferrées).",
-      "Une interface utilisateur intuitive et visuellement attrayante.",
-      "Une structure de code propre et maintenable, suivant les principes de la programmation orientée objet."
+      "Apprentissage de l'API ProxMox",
+      "Apprentissage de l'isolation de plusieurs docker engine",
+      "Approfondissement du développement en Symfony"
     ]
   }
 ];
